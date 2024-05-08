@@ -1,0 +1,321 @@
+/* header section */
+.heading{
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading h1{
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: var(--white);
+    text-shadow: var(--text-shadow);
+  }
+  .header .navbar {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--black);
+    display: flex; /* Make navbar items flex */
+  }
+  
+  .header .navbar a {
+    margin-right: 1rem; /* Add spacing between navbar links */
+    color: var(--black);
+    text-decoration: none;
+  }
+  
+  .header .navbar a:hover {
+    color: var(--main-color);
+  }
+  
+  .header .logo{
+    font-size: 2.5rem;
+    color:var(--black)
+  }
+  .header .navbar a:hover{
+    color: var(--main-color);
+  }
+  
+  
+  
+  
+  /* header ends here */
+  /* image slider */
+  .container {
+    margin-top: 1rem;
+    display: flex;
+  }
+  
+  .carousel-wrap {
+    padding: 70px 20px 400px 20px;
+    
+    background: #fff; /* Change background color to white */
+    flex: 1; 
+    top: 300px;
+    left: -100px;
+  }
+  .carousel-caption .container .carousel-item active {
+    position: absolute;
+    top: 50%; /* Position at the vertical center of the image */
+    left: 50%; /* Position at the horizontal center of the image */
+    transform: translate(-50%, -50%); /* Center the caption */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding around the content */
+    width: 80%; /* 80% width of the image */
+    text-align: center; /* Center align text */
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    margin: 0; /* Remove default margins */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 1.5rem; /* Example font size for heading */
+  }
+  
+  .carousel-caption p {
+    font-size: 1rem; /* Example font size for paragraph */
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+    opacity: 1;
+  }
+  .carousel-item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .carousel-indicators {
+    bottom: auto;
+    top: 100%;
+  
+    margin: 10px 0 0;
+    background: #fffefe;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-color: black;
+    width: 25px;
+  }
+  
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 25px;
+  }
+  .img-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.1s ease;
+    transform: scale(1);
+  }
+  .img-thumbnail.active img {
+    opacity: 1;
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+    outline: 1px solid white;
+  }
+  /* image slider ends here */
+  /* property section */
+  
+  .property__container{
+    row-gap :3rem;
+  }
+  .property__data{
+    text-align: center;
+  }
+  .property__description{
+    margin-bottom: 2rem;
+  }
+  .image_cr{
+    position: relative;
+    justify-self: center;
+    overflow: hidden;
+  }
+  .image_cr . .container {
+    margin-top: 1rem;
+    display: flex;
+  }
+  
+  .carousel-wrap {
+    padding: 70px 20px 400px 20px;
+    
+    background: #fff; /* Change background color to white */
+    flex: 1; 
+    top: 300px;
+    left: -100px;
+  }
+  .carousel-caption .container .carousel-item active {
+    position: absolute;
+    top: 50%; /* Position at the vertical center of the image */
+    left: 50%; /* Position at the horizontal center of the image */
+    transform: translate(-50%, -50%); /* Center the caption */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding around the content */
+    width: 80%; /* 80% width of the image */
+    text-align: center; /* Center align text */
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    margin: 0; /* Remove default margins */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 1.5rem; /* Example font size for heading */
+  }
+  
+  .carousel-caption p {
+    font-size: 1rem; /* Example font size for paragraph */
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+    opacity: 1;
+  }
+  .carousel-item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .carousel-indicators {
+    bottom: auto;
+    top: 100%;
+  
+    margin: 10px 0 0;
+    background: #fffefe;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-color: black;
+    width: 25px;
+  }
+  
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 25px;
+  }
+  .img-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.1s ease;
+    transform: scale(1);
+  }
+  .img-thumbnail.active img {
+    opacity: 1;
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+    outline: 1px solid white;
+  }
+  /* property section ends */
+  /* footer section */
+  .footer__container {
+      row-gap: 2.5rem;
+  }
+  
+  .footer__logo {
+      color: var(--first-color);
+      font-size: var(--h3-font-size);
+      font-weight: var(--font-semi-bold);
+      display: inline-flex;
+      align-items: center;
+      column-gap: .25rem;
+      margin-bottom: .75rem;
+  }
+  
+  .footer__logo i {
+      font-size: 1.25rem;
+  }
+  
+  .footer__description,
+  .footer__link {
+      font-size: var(--small-font-size);
+      font-weight: var(--font-medium);
+  }
+  
+  .footer__content,
+  .footer__links {
+      display: grid;
+  }
+  
+  .footer__content {
+      grid-template-columns: repeat(2, max-content);
+      gap: 2.5rem 4rem;
+  }
+  
+  .footer__title {
+      font-size: var(--h3-font-size);
+      margin-bottom: 1rem;
+  }
+  
+  .footer__links {
+      row-gap: .5rem;
+  }
+  
+  .footer__link {
+      color: var(--text-color);
+      transition: .3s;
+  }
+  
+  .footer__links:hover {
+      color: var(--title-color);
+  }
+  
+  .footer__social {
+      display: flex;
+      column-gap: 1rem;
+  }
+  
+  .footer__social-link {
+      font-size: 1.25rem;
+      color: var(--text-color);
+      transition: .3s;
+  }
+  
+  .footer__social-link:hover {
+      color: var(--title-color);
+  }
+  
+  .footer__info,
+  .footer__privacy {
+      display: flex;
+  }
+  
+  .footer__info {
+      padding-bottom: 6rem;
+      margin-top: 5.5rem;
+      flex-direction: column;
+      text-align: center;
+      row-gap: 1.5rem;
+  }
+  
+  .footer__copy,
+  .footer__privacy a {
+      font-size: var(--smaller-font-size);
+      font-weight: var(--font-medium);
+      color: var(--text-color);
+  }
+  
+  .footer__privacy {
+      justify-content: center;
+      column-gap: 1.25rem;
+  }
+  /* footer section ends here */
